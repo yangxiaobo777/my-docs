@@ -49,4 +49,17 @@ export const zhNavbar = navbar([
     icon: "note",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  {
+    text: "redis",
+    icon: "edit",
+    prefix: "/zh/redis/",
+    children: [
+      {
+        text: "redis的介绍与安装",
+        icon: "edit",
+        link: "redisi"
+      },
+
+    ],
+  },
 ]);
